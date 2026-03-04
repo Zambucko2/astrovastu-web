@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/astrovastu-web/',
+  build: {
+    outDir: './dist',
+  },
   plugins: [react()],
-  base: '/astrovastu-web/', // <--- Replace this with your exact GitHub Repo name
-})
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});
