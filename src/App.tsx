@@ -23,7 +23,7 @@ interface Review {
 }
 
 const reviews: Review[] = [
-  { id: 1, name: "Hesha P.", text: "I had a consultation with Jolly Vaidya and truly enjoyed the experience. She was very honest, compassionate, and insightful throughout the session. I really appreciated how clearly she explained things and guided me in the right direction. Her approach felt genuine and thoughtful, which made the consultation very comforting and helpful. I would definitely recommend her to anyone looking for honest and meaningful astrological guidance." },
+  { id: 1, name: "Hesha P.", text: "I had a consultation with Jolly Vaidya and truly enjoyed the experience. She was very honest, compassionate, and insightful throughout the session. I really appreciated how clearly she explained things and guided me in the right direction. I would definitely recommend her to anyone looking for honest and meaningful astrological guidance." },
   { id: 2, name: "Tee P.", text: "She is very knowledgeable, compassionate, competent and friendly. I highly recommend her." },
   { id: 3, name: "Nayan Y.", text: "In odd times, I connected with astrovaastu solutions, I got good remedies & life changing solution - Guidance. Thanks." },
   { id: 4, name: "Mitali M.", text: "When you need some guidance in life to show you the right path AstroVaastu really came to the rescue. She was and and always will be our Guardian Angel. Highly recommend her for all your Vaastu needs" },
