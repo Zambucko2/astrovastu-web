@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ] # Make sure this matches your branch name
+    branches: [ "master" ] # Make sure this matches your branch name
 
 permissions:
   contents: read
