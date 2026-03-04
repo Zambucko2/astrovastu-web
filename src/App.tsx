@@ -15,6 +15,8 @@ import {
   Quote
 } from 'lucide-react';
 
+import Logo from '/media/Jolly Vaidya Logo with text.png';
+
 // --- Types ---
 interface Review {
   id: number;
@@ -60,7 +62,11 @@ function App() {
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-astrogold rounded-full flex items-center justify-center text-astrodark">
-              <Star size={18} fill="currentColor" />
+              <img 
+                src={Logo}
+                alt="AstroVastu Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-xl font-bold tracking-tighter">ASTROVASTU</span>
           </div>
@@ -178,7 +184,7 @@ function App() {
         <div className="grid lg:grid-cols-2 gap-16">
           <div className="space-y-8">
             <h2 className="text-4xl md:text-6xl font-bold">Connect with <br/><span className="text-astrogold">Jolly Vaidya</span></h2>
-            <p className="text-zinc-400 text-lg">Available for global online consultations and on-site Vastu visits across India.</p>
+            <p className="text-zinc-400 text-lg">Available for global online consultations and on-site Vastu visits in North Carolina.</p>
             
             <div className="space-y-4">
               <a href="https://facebook.com/AstrologerJollyVaidya" target="_blank" className="flex items-center space-x-4 p-4 bg-white/5 rounded-xl border border-white/5 hover:border-astrogold/30 transition-all">
